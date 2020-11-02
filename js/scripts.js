@@ -80,7 +80,7 @@ function allowlogin(usermail) {
                 });
 
             alert("Logged in user id :" + b);
-            window.location = "https://dileepnalla.github.io/Basic_html/Index.HTML";
+            window.location = "https://inguva1414.github.io/px-website/Index.HTML";
 
         }
         else
