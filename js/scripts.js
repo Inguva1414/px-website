@@ -167,7 +167,7 @@ function transactiondone(ev1) {
 
 // Clearing cookies on the page load
 function deleteAllCookies() {
-    //window.aptrinsic('reset');
+    window.aptrinsic('reset');
     counter = 0;
 }
 
