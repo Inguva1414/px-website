@@ -171,14 +171,14 @@ function deleteAllCookies() {
     counter = 0;
 }
 
-function showKCB1() {
+/*function showKCB1() {
     aptrinsic('bot', 'start', { id: "3d8b06d9-06ea-4518-8ef2-78564a5a173e" }); // We can also specific ID
 
 }
 function showKCB2() {
     aptrinsic('bot', 'start', { id: "9ba7fb81-e8d1-4ec2-9b7c-36bf643e9981" }); // We can also specific ID
 
-}
+}*/
 
 
 function captureonlyforsession() {
