@@ -172,11 +172,11 @@ function deleteAllCookies() {
 }
 
 /*function showKCB1() {
-    aptrinsic('bot', 'start', { id: "3d8b06d9-06ea-4518-8ef2-78564a5a173e" }); // We can also specific ID
+    aptrinsic('bot', 'start', { id: "32b72a9e-b2ab-42d8-bc65-43bea9001ee2" }); // We can also specific ID
 
 }
 function showKCB2() {
-    aptrinsic('bot', 'start', { id: "9ba7fb81-e8d1-4ec2-9b7c-36bf643e9981" }); // We can also specific ID
+    aptrinsic('bot', 'start', { id: "51de131e-a174-4317-ae7e-9a6df2ce0bed" }); // We can also specific ID
 
 }*/
 
