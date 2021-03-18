@@ -168,7 +168,7 @@ function transactiondone(ev1) {
 // Clearing cookies on the page load
 function deleteAllCookies() {
     window.aptrinsic('reset');
-    counter = 0;
+    //counter = 0;
 }
 
 /*function showKCB1() {
