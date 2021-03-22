@@ -31,11 +31,15 @@ function callglobal()  //https://share.vidyard.com/watch/9DHjPPiqZQc7czUnjorcxA?
 }
 
 function loadContactPage() {
+    var usermail= "demouser@gmail.com";
+    allowlogin(usermail);
     aptrinsic('set', 'globalContext', { "page": "Contactpage" });
      aptrinsic('bot', 'hide', { id: "32b72a9e-b2ab-42d8-bc65-43bea9001ee2" });
     aptrinsic('bot', 'show', { id: "51de131e-a174-4317-ae7e-9a6df2ce0bed" }); // We can also specific ID
 }
 function loadAboutusPage() {
+    var usermail= "demouser@gmail.com";
+    allowlogin(usermail);
     aptrinsic('set', 'globalContext', { "page": "AboutusPage" });
     aptrinsic('bot', 'hide', { id: "51de131e-a174-4317-ae7e-9a6df2ce0bed" }); 
     aptrinsic('bot', 'show', { id: "32b72a9e-b2ab-42d8-bc65-43bea9001ee2" }); // We can also specific ID
