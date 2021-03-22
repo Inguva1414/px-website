@@ -39,7 +39,21 @@ function loadContactPage() {
 }
 function loadAboutusPage() {
     var usermail= "demouser@gmail.com";
-    allowlogin(usermail);
+    aptrinsic('identify',
+                {
+                    //User Fields
+                    "id": "@gmai", // Required for logged in app users
+                    "email": "demouser@gmail.com"
+                    // "userHash": hash.toString()// optional transient for HMAC identification
+                },
+
+                {
+                    //Account Fields
+                    "id": "PX_Company-1", //Required
+                    "name": "PX_Company-1"
+                     // flat custom attributes
+                });
+
     aptrinsic('set', 'globalContext', { "page": "AboutusPage" });
     aptrinsic('bot', 'hide', { id: "51de131e-a174-4317-ae7e-9a6df2ce0bed" }); 
     aptrinsic('bot', 'show', { id: "32b72a9e-b2ab-42d8-bc65-43bea9001ee2" }); // We can also specific ID
