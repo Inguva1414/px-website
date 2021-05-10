@@ -54,15 +54,15 @@ function loadAboutusPage() {
     aptrinsic('identify',
                 {
                     //User Fields
-                    "id": "@gmai", // Required for logged in app users
+                    "id": "singuva", // Required for logged in app users
                     "email": "demouser@gmail.com"
                     // "userHash": hash.toString()// optional transient for HMAC identification
                 },
 
                 {
                     //Account Fields
-                    "id": "PX_Company-1", //Required
-                    "name": "PX_Company-1"
+                    "id": "PX_Company-2", //Required
+                    "name": "PX_Company2"
                      // flat custom attributes
                 });
 
